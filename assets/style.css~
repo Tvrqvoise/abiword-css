@@ -419,7 +419,7 @@ td, th {
    
    Fonts
    
-   Satisfy by Joe Prince (https://plus.google.com/115540960342941034012/about) 
+   Damion by JVernon Adams (https://plus.google.com/107807505287232434305/about) 
         under an OFL 1.1 license
         
    Valera Round by Sideshow (https://profiles.google.com/sideshowfonts/about)
@@ -427,7 +427,7 @@ td, th {
    
    Imports:
    font-family: 'Varela Round', sans-serif;
-   font-family: 'Damion', cursive;
+   font-family: 'Damion', sans-serif;
    
    ========================================================================== */
 html {
@@ -439,6 +439,7 @@ h2, h3, h4, h5 {
     margin: 0;
 }
 h3 {font-size: 20px;}
+h4 {font-size: 16px; font-weight:bold;}
 
 /* ==========================================================================
    Palette
@@ -455,13 +456,12 @@ h3 {font-size: 20px;}
    ========================================================================== */
 .logobar:first-child { /* TODO: replace with selector */
     font-size: 84px;
-    font-family: 'Damion', cursive;
+    font-family: 'Damion', sans-serif;
     color: #FFF;
 }
 .logobar:first-child + .logobar div { /* TODO: replace with selector */
     text-align: right !important;
     color: #75D8C4;
-    margin-top: -10px;
 }
 .swish {
     display: none;
@@ -483,10 +483,30 @@ h3 {font-size: 20px;}
     background-position: center 6px;
     border-radius: 1000px;
 }
+.logobar:first-child a { /* TODO: replace with selector */
+    position: relative;
+    display:block;
+    margin-top: -20px;
+}
+.logobar:first-child a:active, .logobar:first-child a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
 .logobar:first-child a:before { /* TODO: replace with selector */
-    content: "Abiword";
+    content: "AbiWord";
     display: block;
     font-weight: normal;
+}
+.logobar:first-child a:after { /* TODO: replace with selector */
+    content: "Word processing for everyone!";
+    display: block;
+    font-weight: normal;
+    position: absolute;
+    bottom: 0px;
+    font-size: 24px;
+    width: 100%;
+    left:0;
+    right:0;
 }
 .logobar:first-child img {
     display: none;
@@ -495,16 +515,20 @@ body > table:first-child::before { /* TODO: replace with DOM stuff */
     content: "";
     display: block;
     position: absolute;
-    height: 130px;
+    height: 150px;
     width: 100%;
     top:0;
     right:0;
     left:0;
     background-color: #5AB4D2;
     z-index: -1;
+    border-bottom: 5px solid #75D8C4;
+}
+body > table:first-child {
+    border-bottom: 5px solid #75D8C4;
 }
 .logobar {
-    height: 130px;
+    height: 150px;
 }
 
 /* ==========================================================================
@@ -528,9 +552,13 @@ a {
 	color:#5AB4D2;
 	font-weight: bold;
 	text-decoration: none;
+	-webkit-transition: color 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out;
+    transition: color 500ms ease-in-out;
 }
-a:active {
-	color: #ff0000;
+a:active, a:hover {
+	color: #75D8C4;
     text-decoration: underline;
 }
 
@@ -541,6 +569,7 @@ body > table + table + table { /* TODO: replace with selector */
     width: 100%;
     max-width: none;
     background-color: #1D1D1D !important; /* TODO: remove inline styles */
+    border-top: 10px solid #75D8C4;
 }
 .copyright {
     background-color: #1D1D1D;
@@ -574,6 +603,11 @@ body > table + table + table { /* TODO: replace with selector */
 .navigation a
 {
     text-decoration: none;
+    background-color: #FFF;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -moz-transition: background-color 500ms ease-in-out;
+    -o-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
 }
 .navigation a:hover
 {
