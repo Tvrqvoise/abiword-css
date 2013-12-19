@@ -564,7 +564,7 @@ body > table + table + table { /* TODO: replace with selector */
     background-color: #FFF;
     width: 20%;
 }
-.navbar {
+.navbar > hr {
     margin-left: 10px;
 }
 .navigation

@@ -484,7 +484,7 @@ h3 {font-size: 20px;}
     border-radius: 1000px;
 }
 .logobar:first-child a:before { /* TODO: replace with selector */
-    content: "Abiword";
+    content: "AbiWord";
     display: block;
     font-weight: normal;
 }

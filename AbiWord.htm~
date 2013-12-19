@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>AbiWord</title>
-<link rel="stylesheet" type="text/css" href="./assets/style.css">
+<link rel="stylesheet" type="text/css" href="AbiWord_files/style.css">
 <link rel="shortcut icon" href="http://www.abisource.com/favicon.png" type="image/x-icon">
 <meta name="description" content="AbiSource - Open Source for the Desktop.">
 <meta name="keywords" content="AbiSource, AbiWord, Open Source, Office Suite, Abi, plugin, gnome, office, Word Processor, cross-platform, Linux, Windows, QNX, WP, Word, WordProcessor, free, software, download">
@@ -13,7 +13,7 @@
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody><tr>
-<td colspan="2" class="logobar"><a href="http://www.abisource.com/"><img src="./assets/abilogo.jpg" class="logo" alt="AbiWord: Word Processing for Everyone" align="left" border="0" height="90" width="293"></a></td><td class="logobar" style="vertical-align:top; width:100%;"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="height:66px;">&nbsp;</td></tr><tr><td><div style="text-align:center;"><span style="font-size:small">[ <a href="http://www.abisource.com/">Main Site</a>&nbsp;|&nbsp;<a href="http://www.nl.abisource.com/">Mirror (.nl)</a> ]</span></div></td></tr></tbody></table></td><td class="logobar"><img src="./assets/swish-a.jpg" alt="[Logo]" class="swish" align="right" height="90" width="66"></td></tr></tbody></table><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="navbar" bgcolor="#b0d0b0" valign="top" width="150">
+<td colspan="2" class="logobar"><a href="http://www.abisource.com/"><img src="AbiWord_files/abilogo.jpg" class="logo" alt="AbiWord: Word Processing for Everyone" align="left" border="0" height="90" width="293"></a></td><td class="logobar" style="vertical-align:top; width:100%;"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="height:66px;">&nbsp;</td></tr><tr><td><div style="text-align:center;"><span style="font-size:small">[ <a href="http://www.abisource.com/">Main Site</a>&nbsp;|&nbsp;<a href="http://www.nl.abisource.com/">Mirror (.nl)</a> ]</span></div></td></tr></tbody></table></td><td class="logobar"><img src="AbiWord_files/swish-a.jpg" alt="[Logo]" class="swish" align="right" height="90" width="66"></td></tr></tbody></table><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="navbar" bgcolor="#b0d0b0" valign="top" width="150">
 <div class="navigation">
 <br><strong><a href="http://www.abisource.com/">AbiWord Home</a></strong><br>
 &nbsp; <a href="http://www.abisource.com/tour/">Take a Tour</a><br>
@@ -41,7 +41,7 @@
 &nbsp; <a href="http://www.abisource.com/beta/">Quality Assurance</a><br>
 &nbsp; <a href="http://www.abisource.com/contribute/translate/">Translate</a><br>
 <br><strong><a href="http://www.abisource.com/developers/">Developers</a></strong><br>
-<br></div><hr align="left" noshade="noshade" size="1" width="149"><div align="center"><br><a href="http://www.abisource.com/index.phtml?printable=1"><img src="./assets/printer.gif" alt="[Printer]" border="0" height="30" width="32"><br><small>Printer Friendly<br>Version</small></a></div><br><br><div align="center"><small>kindly hosted by</small><br><a href="http://www.utwente.nl/en/"><img src="./assets/ut_logo_trans.gif" alt="[University of Twente]" border="0" height="40" width="40"><br><small>University of Twente</small></a><br></div><br><br></td><td valign="top"><div class="content">
+<br></div><hr align="left" noshade="noshade" size="1" width="149"><div align="center"><br><a href="http://www.abisource.com/index.phtml?printable=1"><img src="AbiWord_files/printer.gif" alt="[Printer]" border="0" height="30" width="32"><br><small>Printer Friendly<br>Version</small></a></div><br><br><div align="center"><small>kindly hosted by</small><br><a href="http://www.utwente.nl/en/"><img src="AbiWord_files/ut_logo_trans.gif" alt="[University of Twente]" border="0" height="40" width="40"><br><small>University of Twente</small></a><br></div><br><br></td><td valign="top"><div class="content">
 <h2>Welcome to AbiWord!</h2>
 <p>AbiWord is a free <strong>word processing program</strong> similar to 
 Microsoft® Word. It is suitable for a wide variety of word processing tasks.
