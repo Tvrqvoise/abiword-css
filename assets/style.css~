@@ -420,7 +420,7 @@ td, th {
    Fonts
    
    Damion by JVernon Adams (https://plus.google.com/107807505287232434305/about) 
-        under an OFL 1.1 license
+        under a SIL Open Font License, 1.1
         
    Valera Round by Sideshow (https://profiles.google.com/sideshowfonts/about)
         under an Apache 2.0 License
@@ -471,11 +471,11 @@ h4 {font-size: 16px; font-weight:bold;}
     color: #FFF;
     margin: 0 10px;
 }
-.logobar:first-child + .logobar + .logobar:before { /* TODO: replace with selector */
+.logobar:first-child a:before { /* TODO: replace with selector */
     content: "";
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color: #FFF;
     background-image: url("./logo.svg");
     background-size: 75%;
@@ -486,28 +486,13 @@ h4 {font-size: 16px; font-weight:bold;}
 .logobar:first-child a { /* TODO: replace with selector */
     position: relative;
     display:block;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 .logobar:first-child a:active, .logobar:first-child a:hover {
     color: #FFF;
     text-decoration: none;
 }
-.logobar:first-child a:before { /* TODO: replace with selector */
-    content: "AbiWord";
-    display: block;
-    font-weight: normal;
-}
-.logobar:first-child a:after { /* TODO: replace with selector */
-    content: "Word processing for everyone!";
-    display: block;
-    font-weight: normal;
-    position: absolute;
-    bottom: 0px;
-    font-size: 24px;
-    width: 100%;
-    left:0;
-    right:0;
-}
+
 .logobar:first-child img {
     display: none;
 }
